@@ -9895,3 +9895,83 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1448372913.862
     'REQUEST_TIME' => 1448372913
 ]
+2015-12-17 22:55:48 [127.0.0.1][-][21g6a931dkpv0nnceh9matl322][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message '您提交的数据无法被验证。' in /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/Controller.php:110
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Controller.php(149): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#1 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#2 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('public/login', Array)
+#3 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/admin.php(19): yii\base\Application->run()
+#5 {main}
+2015-12-17 22:55:48 [127.0.0.1][-][21g6a931dkpv0nnceh9matl322][info][application] $_GET = [
+    'r' => 'public/login'
+]
+
+$_POST = [
+    '_csrf' => 'VDk0YmhIQjEkC39WXywBXzF2VzMheB0JYHIAUh8GBwkwamUhAQEjVg=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'admin123'
+        'rememberMe' => '0'
+    ]
+]
+
+$_COOKIE = [
+    'Hm_lvt_f0cfcccd7b1393990c78efdeebff3968' => '1435384591'
+    'Z7jt_2132_lastcheckfeed' => '1|1436541853'
+    'Z7jt_2132_nofavfid' => '1'
+    'Z7jt_2132_cpmenu_Ma5f625b2' => '1'
+    'CNZZDATA1255821418' => '1355034140-1437746976-http%3A%2F%2F127.0.0.1%2F|1437746976'
+    'ECS' => [
+        'visit_times' => '2'
+    ]
+    'Z7jt_2132_ulastactivity' => '96173akUuFbPstODLaYMUw2bhsVFxD1zzk5C4WpgHG8LDNUt9KNC'
+    'Hm_lvt_5f5a95758129ff157ca4d0d7afabff18' => '1448804316'
+    'PHPSESSID' => '21g6a931dkpv0nnceh9matl322'
+    '_csrf' => '7bba86b7385d399159e92622041bac18be341e99e38b5be543426b85e41d23fda:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"_6pTSDPwRTPLaaN8lZqa_PMrS70UnGjq\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnLM9H8AAAEAAAOBGzgAAAAD'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '157'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://127.0.0.1/wei_shop/web/admin.php?r=public/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4'
+    'HTTP_COOKIE' => 'Hm_lvt_f0cfcccd7b1393990c78efdeebff3968=1435384591; Z7jt_2132_lastcheckfeed=1%7C1436541853; Z7jt_2132_nofavfid=1; Z7jt_2132_cpmenu_Ma5f625b2=1; CNZZDATA1255821418=1355034140-1437746976-http%253A%252F%252F127.0.0.1%252F%7C1437746976; ECS[visit_times]=2; Z7jt_2132_ulastactivity=96173akUuFbPstODLaYMUw2bhsVFxD1zzk5C4WpgHG8LDNUt9KNC; Hm_lvt_5f5a95758129ff157ca4d0d7afabff18=1448804316; PHPSESSID=21g6a931dkpv0nnceh9matl322; _csrf=7bba86b7385d399159e92622041bac18be341e99e38b5be543426b85e41d23fda%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22_6pTSDPwRTPLaaN8lZqa_PMrS70UnGjq%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1j PHP/5.6.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/admin.php'
+    'REMOTE_PORT' => '51150'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=public/login'
+    'REQUEST_URI' => '/wei_shop/web/admin.php?r=public/login'
+    'SCRIPT_NAME' => '/wei_shop/web/admin.php'
+    'PHP_SELF' => '/wei_shop/web/admin.php'
+    'REQUEST_TIME_FLOAT' => 1450364148.102
+    'REQUEST_TIME' => 1450364148
+]

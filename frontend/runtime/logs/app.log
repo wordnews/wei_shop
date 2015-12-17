@@ -3182,3 +3182,624 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1448804237.077
     'REQUEST_TIME' => 1448804237
 ]
+2015-12-17 22:46:14 [127.0.0.1][-][7v4paiuenc3uq23c11702pi6b6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/admin_assets/img/btn_bg.gif".' in /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('assets/admin_as...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-12-17 22:46:14 [127.0.0.1][-][7v4paiuenc3uq23c11702pi6b6][info][application] $_COOKIE = [
+    'Hm_lvt_f0cfcccd7b1393990c78efdeebff3968' => '1435384591'
+    'Z7jt_2132_lastcheckfeed' => '1|1436541853'
+    'Z7jt_2132_nofavfid' => '1'
+    'Z7jt_2132_cpmenu_Ma5f625b2' => '1'
+    'CNZZDATA1255821418' => '1355034140-1437746976-http%3A%2F%2F127.0.0.1%2F|1437746976'
+    'ECS' => [
+        'visit_times' => '2'
+    ]
+    'Z7jt_2132_ulastactivity' => '96173akUuFbPstODLaYMUw2bhsVFxD1zzk5C4WpgHG8LDNUt9KNC'
+    'Hm_lvt_5f5a95758129ff157ca4d0d7afabff18' => '1448804316'
+    '_csrf' => 'b2f0e4a15c1061aa6b6ac34867f8ded80041a9cafef4b2558345a419a40d037ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LG_TbF_jbbitbrubVGwPv6fnONiqiMWP\";}'
+    'PHPSESSID' => '7v4paiuenc3uq23c11702pi6b6'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VnLKtn8AAAEAAAQ5hAsAAAAL'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VnLKtn8AAAEAAAQ5hAsAAAAL'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/wei_shop/web/assets/admin_assets/css/login.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4'
+    'HTTP_COOKIE' => 'Hm_lvt_f0cfcccd7b1393990c78efdeebff3968=1435384591; Z7jt_2132_lastcheckfeed=1%7C1436541853; Z7jt_2132_nofavfid=1; Z7jt_2132_cpmenu_Ma5f625b2=1; CNZZDATA1255821418=1355034140-1437746976-http%253A%252F%252F127.0.0.1%252F%7C1437746976; ECS[visit_times]=2; Z7jt_2132_ulastactivity=96173akUuFbPstODLaYMUw2bhsVFxD1zzk5C4WpgHG8LDNUt9KNC; Hm_lvt_5f5a95758129ff157ca4d0d7afabff18=1448804316; _csrf=b2f0e4a15c1061aa6b6ac34867f8ded80041a9cafef4b2558345a419a40d037ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LG_TbF_jbbitbrubVGwPv6fnONiqiMWP%22%3B%7D; PHPSESSID=7v4paiuenc3uq23c11702pi6b6'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1j PHP/5.6.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php'
+    'REMOTE_PORT' => '50920'
+    'REDIRECT_URL' => '/wei_shop/web/assets/admin_assets/img/btn_bg.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wei_shop/web/assets/admin_assets/img/btn_bg.gif'
+    'SCRIPT_NAME' => '/wei_shop/web/index.php'
+    'PHP_SELF' => '/wei_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1450363574.485
+    'REQUEST_TIME' => 1450363574
+]
+2015-12-17 22:46:14 [127.0.0.1][-][7v4paiuenc3uq23c11702pi6b6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/admin_assets/img/text_input_bg.gif".' in /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('assets/admin_as...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-12-17 22:46:14 [127.0.0.1][-][7v4paiuenc3uq23c11702pi6b6][info][application] $_COOKIE = [
+    'Hm_lvt_f0cfcccd7b1393990c78efdeebff3968' => '1435384591'
+    'Z7jt_2132_lastcheckfeed' => '1|1436541853'
+    'Z7jt_2132_nofavfid' => '1'
+    'Z7jt_2132_cpmenu_Ma5f625b2' => '1'
+    'CNZZDATA1255821418' => '1355034140-1437746976-http%3A%2F%2F127.0.0.1%2F|1437746976'
+    'ECS' => [
+        'visit_times' => '2'
+    ]
+    'Z7jt_2132_ulastactivity' => '96173akUuFbPstODLaYMUw2bhsVFxD1zzk5C4WpgHG8LDNUt9KNC'
+    'Hm_lvt_5f5a95758129ff157ca4d0d7afabff18' => '1448804316'
+    '_csrf' => 'b2f0e4a15c1061aa6b6ac34867f8ded80041a9cafef4b2558345a419a40d037ca:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"LG_TbF_jbbitbrubVGwPv6fnONiqiMWP\";}'
+    'PHPSESSID' => '7v4paiuenc3uq23c11702pi6b6'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VnLKtn8AAAEAAAQ07DAAAAAG'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VnLKtn8AAAEAAAQ07DAAAAAG'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/wei_shop/web/assets/admin_assets/css/login.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4'
+    'HTTP_COOKIE' => 'Hm_lvt_f0cfcccd7b1393990c78efdeebff3968=1435384591; Z7jt_2132_lastcheckfeed=1%7C1436541853; Z7jt_2132_nofavfid=1; Z7jt_2132_cpmenu_Ma5f625b2=1; CNZZDATA1255821418=1355034140-1437746976-http%253A%252F%252F127.0.0.1%252F%7C1437746976; ECS[visit_times]=2; Z7jt_2132_ulastactivity=96173akUuFbPstODLaYMUw2bhsVFxD1zzk5C4WpgHG8LDNUt9KNC; Hm_lvt_5f5a95758129ff157ca4d0d7afabff18=1448804316; _csrf=b2f0e4a15c1061aa6b6ac34867f8ded80041a9cafef4b2558345a419a40d037ca%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22LG_TbF_jbbitbrubVGwPv6fnONiqiMWP%22%3B%7D; PHPSESSID=7v4paiuenc3uq23c11702pi6b6'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1j PHP/5.6.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php'
+    'REMOTE_PORT' => '50921'
+    'REDIRECT_URL' => '/wei_shop/web/assets/admin_assets/img/text_input_bg.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wei_shop/web/assets/admin_assets/img/text_input_bg.gif'
+    'SCRIPT_NAME' => '/wei_shop/web/index.php'
+    'PHP_SELF' => '/wei_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1450363574.487
+    'REQUEST_TIME' => 1450363574
+]
+2015-12-17 22:55:46 [127.0.0.1][-][21g6a931dkpv0nnceh9matl322][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/admin_assets/img/btn_bg.gif".' in /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('assets/admin_as...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-12-17 22:55:46 [127.0.0.1][-][21g6a931dkpv0nnceh9matl322][info][application] $_COOKIE = [
+    'Hm_lvt_f0cfcccd7b1393990c78efdeebff3968' => '1435384591'
+    'Z7jt_2132_lastcheckfeed' => '1|1436541853'
+    'Z7jt_2132_nofavfid' => '1'
+    'Z7jt_2132_cpmenu_Ma5f625b2' => '1'
+    'CNZZDATA1255821418' => '1355034140-1437746976-http%3A%2F%2F127.0.0.1%2F|1437746976'
+    'ECS' => [
+        'visit_times' => '2'
+    ]
+    'Z7jt_2132_ulastactivity' => '96173akUuFbPstODLaYMUw2bhsVFxD1zzk5C4WpgHG8LDNUt9KNC'
+    'Hm_lvt_5f5a95758129ff157ca4d0d7afabff18' => '1448804316'
+    'PHPSESSID' => '21g6a931dkpv0nnceh9matl322'
+    '_csrf' => '0e3428df55bf5db735ce44451cc08d0f7f6a871ca3c8dfa88a20ae0b9d021518a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"p2K47dCneOcQI0_84K40wNE8dSQCiIag\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VnLM8n8AAAEAAARPxCoAAAAH'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VnLM8n8AAAEAAARPxCoAAAAH'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/wei_shop/web/assets/admin_assets/css/login.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4'
+    'HTTP_COOKIE' => 'Hm_lvt_f0cfcccd7b1393990c78efdeebff3968=1435384591; Z7jt_2132_lastcheckfeed=1%7C1436541853; Z7jt_2132_nofavfid=1; Z7jt_2132_cpmenu_Ma5f625b2=1; CNZZDATA1255821418=1355034140-1437746976-http%253A%252F%252F127.0.0.1%252F%7C1437746976; ECS[visit_times]=2; Z7jt_2132_ulastactivity=96173akUuFbPstODLaYMUw2bhsVFxD1zzk5C4WpgHG8LDNUt9KNC; Hm_lvt_5f5a95758129ff157ca4d0d7afabff18=1448804316; PHPSESSID=21g6a931dkpv0nnceh9matl322; _csrf=0e3428df55bf5db735ce44451cc08d0f7f6a871ca3c8dfa88a20ae0b9d021518a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22p2K47dCneOcQI0_84K40wNE8dSQCiIag%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1j PHP/5.6.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php'
+    'REMOTE_PORT' => '51159'
+    'REDIRECT_URL' => '/wei_shop/web/assets/admin_assets/img/btn_bg.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wei_shop/web/assets/admin_assets/img/btn_bg.gif'
+    'SCRIPT_NAME' => '/wei_shop/web/index.php'
+    'PHP_SELF' => '/wei_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1450364146.449
+    'REQUEST_TIME' => 1450364146
+]
+2015-12-17 22:55:46 [127.0.0.1][-][21g6a931dkpv0nnceh9matl322][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/admin_assets/img/text_input_bg.gif".' in /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Module.php:461
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('assets/admin_as...', Array)
+#1 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message '页面未找到。' in /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/Application.php:96
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php(18): yii\base\Application->run()
+#2 {main}
+2015-12-17 22:55:46 [127.0.0.1][-][21g6a931dkpv0nnceh9matl322][info][application] $_COOKIE = [
+    'Hm_lvt_f0cfcccd7b1393990c78efdeebff3968' => '1435384591'
+    'Z7jt_2132_lastcheckfeed' => '1|1436541853'
+    'Z7jt_2132_nofavfid' => '1'
+    'Z7jt_2132_cpmenu_Ma5f625b2' => '1'
+    'CNZZDATA1255821418' => '1355034140-1437746976-http%3A%2F%2F127.0.0.1%2F|1437746976'
+    'ECS' => [
+        'visit_times' => '2'
+    ]
+    'Z7jt_2132_ulastactivity' => '96173akUuFbPstODLaYMUw2bhsVFxD1zzk5C4WpgHG8LDNUt9KNC'
+    'Hm_lvt_5f5a95758129ff157ca4d0d7afabff18' => '1448804316'
+    'PHPSESSID' => '21g6a931dkpv0nnceh9matl322'
+    '_csrf' => '0e3428df55bf5db735ce44451cc08d0f7f6a871ca3c8dfa88a20ae0b9d021518a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"p2K47dCneOcQI0_84K40wNE8dSQCiIag\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VnLM8n8AAAEAAAOBGzcAAAAD'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VnLM8n8AAAEAAAOBGzcAAAAD'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/wei_shop/web/assets/admin_assets/css/login.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4'
+    'HTTP_COOKIE' => 'Hm_lvt_f0cfcccd7b1393990c78efdeebff3968=1435384591; Z7jt_2132_lastcheckfeed=1%7C1436541853; Z7jt_2132_nofavfid=1; Z7jt_2132_cpmenu_Ma5f625b2=1; CNZZDATA1255821418=1355034140-1437746976-http%253A%252F%252F127.0.0.1%252F%7C1437746976; ECS[visit_times]=2; Z7jt_2132_ulastactivity=96173akUuFbPstODLaYMUw2bhsVFxD1zzk5C4WpgHG8LDNUt9KNC; Hm_lvt_5f5a95758129ff157ca4d0d7afabff18=1448804316; PHPSESSID=21g6a931dkpv0nnceh9matl322; _csrf=0e3428df55bf5db735ce44451cc08d0f7f6a871ca3c8dfa88a20ae0b9d021518a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22p2K47dCneOcQI0_84K40wNE8dSQCiIag%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1j PHP/5.6.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php'
+    'REMOTE_PORT' => '51150'
+    'REDIRECT_URL' => '/wei_shop/web/assets/admin_assets/img/text_input_bg.gif'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wei_shop/web/assets/admin_assets/img/text_input_bg.gif'
+    'SCRIPT_NAME' => '/wei_shop/web/index.php'
+    'PHP_SELF' => '/wei_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1450364146.451
+    'REQUEST_TIME' => 1450364146
+]
+2015-12-17 23:01:05 [127.0.0.1][-][e7mtjug50thh59ucd2p2dkr2i5][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'' in /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/Command.php:837
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/Command.php(837): PDOStatement->execute()
+#1 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#3 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/BaseActiveRecord.php(102): yii\db\ActiveQuery->one()
+#5 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/models/Member.php(63): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/User.php(614): frontend\models\Member::findIdentity('<span class="nu...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/User.php(176): yii\web\User->renewAuthStatus()
+#8 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/User.php(346): yii\web\User->getIdentity()
+#9 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\User->getIsGuest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/views/layouts/main.php(42): yii\base\Component->__get('<span class="st...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/View.php(325): require('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\SiteController))
+#14 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Controller.php(372): yii\base\Controller->renderContent('<span class="st...')
+#15 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/controllers/SiteController.php(75): yii\base\Controller->render('<span class="st...')
+#16 [internal function]: frontend\controllers\SiteController->actionIndex()
+#17 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#18 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#19 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#20 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#21 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php(18): yii\base\Application->run()
+#23 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'where clause'
+The SQL being executed was: SELECT * FROM `cms_member` WHERE (`id`=1) AND (`status`=1)' in /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/Schema.php:628
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#3 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/BaseActiveRecord.php(102): yii\db\ActiveQuery->one()
+#5 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/models/Member.php(63): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/User.php(614): frontend\models\Member::findIdentity('<span class="nu...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/User.php(176): yii\web\User->renewAuthStatus()
+#8 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/User.php(346): yii\web\User->getIdentity()
+#9 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Component.php(130): yii\web\User->getIsGuest()
+#10 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/views/layouts/main.php(42): yii\base\Component->__get('<span class="st...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/View.php(325): require('/Applications/X...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('<span class="st...', '[<span class="s...')
+#13 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->renderFile('<span class="st...', '[<span class="s...', Object(frontend\controllers\SiteController))
+#14 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Controller.php(372): yii\base\Controller->renderContent('<span class="st...')
+#15 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/controllers/SiteController.php(75): yii\base\Controller->render('<span class="st...')
+#16 [internal function]: frontend\controllers\SiteController->actionIndex()
+#17 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#18 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#19 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#20 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#21 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#22 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php(18): yii\base\Application->run()
+#23 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'id' in 'where clause'
+)
+
+2015-12-17 23:01:05 [127.0.0.1][-][e7mtjug50thh59ucd2p2dkr2i5][info][application] $_COOKIE = [
+    'Hm_lvt_f0cfcccd7b1393990c78efdeebff3968' => '1435384591'
+    'Z7jt_2132_lastcheckfeed' => '1|1436541853'
+    'Z7jt_2132_nofavfid' => '1'
+    'Z7jt_2132_cpmenu_Ma5f625b2' => '1'
+    'CNZZDATA1255821418' => '1355034140-1437746976-http%3A%2F%2F127.0.0.1%2F|1437746976'
+    'ECS' => [
+        'visit_times' => '2'
+    ]
+    'Z7jt_2132_ulastactivity' => '96173akUuFbPstODLaYMUw2bhsVFxD1zzk5C4WpgHG8LDNUt9KNC'
+    'Hm_lvt_5f5a95758129ff157ca4d0d7afabff18' => '1448804316'
+    '_csrf' => '704eefccb5ec2abb0421e41afc8450b724c923fdc0918a6a4427bce228439da5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Xv9-o3xcoAYKq55QBPeKcYW-8LWNJ6Gq\";}'
+    'PHPSESSID' => 'e7mtjug50thh59ucd2p2dkr2i5'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '_backend' => 1
+    '__captcha/site/captcha' => 'dexuze'
+    '__captcha/site/captchacount' => 1
+    '__id' => 1
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'VnLOMX8AAAEAAAYyPzsAAAAI'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36'
+    'HTTP_REFERER' => 'http://127.0.0.1/wei_shop/web/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4'
+    'HTTP_COOKIE' => 'Hm_lvt_f0cfcccd7b1393990c78efdeebff3968=1435384591; Z7jt_2132_lastcheckfeed=1%7C1436541853; Z7jt_2132_nofavfid=1; Z7jt_2132_cpmenu_Ma5f625b2=1; CNZZDATA1255821418=1355034140-1437746976-http%253A%252F%252F127.0.0.1%252F%7C1437746976; ECS[visit_times]=2; Z7jt_2132_ulastactivity=96173akUuFbPstODLaYMUw2bhsVFxD1zzk5C4WpgHG8LDNUt9KNC; Hm_lvt_5f5a95758129ff157ca4d0d7afabff18=1448804316; _csrf=704eefccb5ec2abb0421e41afc8450b724c923fdc0918a6a4427bce228439da5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Xv9-o3xcoAYKq55QBPeKcYW-8LWNJ6Gq%22%3B%7D; PHPSESSID=e7mtjug50thh59ucd2p2dkr2i5'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1j PHP/5.6.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php'
+    'REMOTE_PORT' => '51226'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wei_shop/web/'
+    'SCRIPT_NAME' => '/wei_shop/web/index.php'
+    'PHP_SELF' => '/wei_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1450364465.52
+    'REQUEST_TIME' => 1450364465
+]
+2015-12-17 23:12:29 [127.0.0.1][-][hftmegnjimantn9gmu83mcmt81][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'' in /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/Command.php:837
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/Command.php(837): PDOStatement->execute()
+#1 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#3 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/BaseActiveRecord.php(102): yii\db\ActiveQuery->one()
+#5 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/models/Member.php(82): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/models/LoginForm.php(84): frontend\models\Member::findByUsername('<span class="st...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/models/LoginForm.php(54): frontend\models\LoginForm->getUser()
+#8 [internal function]: frontend\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/validators/InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/validators/Validator.php(240): yii\validators\InlineValidator->validateAttribute(Object(frontend\models\LoginForm), '<span class="st...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Model.php(352): yii\validators\Validator->validateAttributes(Object(frontend\models\LoginForm), '[<span class="s...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/models/LoginForm.php(69): yii\base\Model->validate()
+#13 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/controllers/SiteController.php(90): frontend\models\LoginForm->login()
+#14 [internal function]: frontend\controllers\SiteController->actionLogin()
+#15 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#16 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#17 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#18 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#19 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php(18): yii\base\Application->run()
+#21 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'status' in 'where clause'
+The SQL being executed was: SELECT * FROM `cms_member` WHERE (`username`='admin') AND (`status`=1)' in /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/Schema.php:628
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/Command.php(852): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/Command.php(373): yii\db\Command->queryInternal('<span class="st...', '<span class="ke...')
+#2 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/Query.php(243): yii\db\Command->queryOne()
+#3 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/ActiveQuery.php(300): yii\db\Query->one('<span class="ke...')
+#4 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/BaseActiveRecord.php(102): yii\db\ActiveQuery->one()
+#5 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/models/Member.php(82): yii\db\BaseActiveRecord::findOne('[<span class="s...')
+#6 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/models/LoginForm.php(84): frontend\models\Member::findByUsername('<span class="st...')
+#7 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/models/LoginForm.php(54): frontend\models\LoginForm->getUser()
+#8 [internal function]: frontend\models\LoginForm->validatePassword('<span class="st...', '<span class="ke...')
+#9 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/validators/InlineValidator.php(69): call_user_func('[<span class="t...', '<span class="st...', '<span class="ke...')
+#10 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/validators/Validator.php(240): yii\validators\InlineValidator->validateAttribute(Object(frontend\models\LoginForm), '<span class="st...')
+#11 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Model.php(352): yii\validators\Validator->validateAttributes(Object(frontend\models\LoginForm), '[<span class="s...')
+#12 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/models/LoginForm.php(69): yii\base\Model->validate()
+#13 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/controllers/SiteController.php(90): frontend\models\LoginForm->login()
+#14 [internal function]: frontend\controllers\SiteController->actionLogin()
+#15 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#16 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams('[]')
+#17 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('<span class="st...', '[]')
+#18 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('<span class="st...', '[]')
+#19 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php(18): yii\base\Application->run()
+#21 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'status' in 'where clause'
+)
+
+2015-12-17 23:12:29 [127.0.0.1][-][hftmegnjimantn9gmu83mcmt81][info][application] $_POST = [
+    '_csrf' => 'RlQtQkRITFMeIhRvK3s0MCkVdAk1fXkCBARICScRG35.GHoMDn4LIg=='
+    'LoginForm' => [
+        'username' => 'admin'
+        'password' => 'admin123'
+        'rememberMe' => '0'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'Hm_lvt_f0cfcccd7b1393990c78efdeebff3968' => '1435384591'
+    'Z7jt_2132_lastcheckfeed' => '1|1436541853'
+    'Z7jt_2132_nofavfid' => '1'
+    'Z7jt_2132_cpmenu_Ma5f625b2' => '1'
+    'CNZZDATA1255821418' => '1355034140-1437746976-http%3A%2F%2F127.0.0.1%2F|1437746976'
+    'ECS' => [
+        'visit_times' => '2'
+    ]
+    'Z7jt_2132_ulastactivity' => '96173akUuFbPstODLaYMUw2bhsVFxD1zzk5C4WpgHG8LDNUt9KNC'
+    'Hm_lvt_5f5a95758129ff157ca4d0d7afabff18' => '1448804316'
+    '_csrf' => '704eefccb5ec2abb0421e41afc8450b724c923fdc0918a6a4427bce228439da5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Xv9-o3xcoAYKq55QBPeKcYW-8LWNJ6Gq\";}'
+    'PHPSESSID' => 'hftmegnjimantn9gmu83mcmt81'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VnLQ3X8AAAEAAARPxDgAAAAH'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VnLQ3X8AAAEAAARPxDgAAAAH'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '171'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://127.0.0.1/wei_shop/web/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4'
+    'HTTP_COOKIE' => 'Hm_lvt_f0cfcccd7b1393990c78efdeebff3968=1435384591; Z7jt_2132_lastcheckfeed=1%7C1436541853; Z7jt_2132_nofavfid=1; Z7jt_2132_cpmenu_Ma5f625b2=1; CNZZDATA1255821418=1355034140-1437746976-http%253A%252F%252F127.0.0.1%252F%7C1437746976; ECS[visit_times]=2; Z7jt_2132_ulastactivity=96173akUuFbPstODLaYMUw2bhsVFxD1zzk5C4WpgHG8LDNUt9KNC; Hm_lvt_5f5a95758129ff157ca4d0d7afabff18=1448804316; _csrf=704eefccb5ec2abb0421e41afc8450b724c923fdc0918a6a4427bce228439da5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Xv9-o3xcoAYKq55QBPeKcYW-8LWNJ6Gq%22%3B%7D; PHPSESSID=hftmegnjimantn9gmu83mcmt81'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1j PHP/5.6.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php'
+    'REMOTE_PORT' => '51372'
+    'REDIRECT_URL' => '/wei_shop/web/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wei_shop/web/site/login'
+    'SCRIPT_NAME' => '/wei_shop/web/index.php'
+    'PHP_SELF' => '/wei_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1450365149.616
+    'REQUEST_TIME' => 1450365149
+]
+2015-12-17 23:16:32 [127.0.0.1][-][hftmegnjimantn9gmu83mcmt81][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: frontend\models\Member::password_hash' in /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Component.php:143
+Stack trace:
+#0 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/db/BaseActiveRecord.php(247): yii\base\Component->__get('password_hash')
+#1 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/models/Member.php(152): yii\db\BaseActiveRecord->__get('password_hash')
+#2 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/models/LoginForm.php(55): frontend\models\Member->validatePassword('admin123')
+#3 [internal function]: frontend\models\LoginForm->validatePassword('password', NULL)
+#4 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/validators/InlineValidator.php(69): call_user_func(Array, 'password', NULL)
+#5 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/validators/Validator.php(240): yii\validators\InlineValidator->validateAttribute(Object(frontend\models\LoginForm), 'password')
+#6 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Model.php(352): yii\validators\Validator->validateAttributes(Object(frontend\models\LoginForm), Array)
+#7 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/models/LoginForm.php(69): yii\base\Model->validate()
+#8 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/frontend/controllers/SiteController.php(90): frontend\models\LoginForm->login()
+#9 [internal function]: frontend\controllers\SiteController->actionLogin()
+#10 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Controller.php(151): yii\base\InlineAction->runWithParams(Array)
+#12 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('login', Array)
+#13 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/login', Array)
+#14 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 /Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php(18): yii\base\Application->run()
+#16 {main}
+2015-12-17 23:16:32 [127.0.0.1][-][hftmegnjimantn9gmu83mcmt81][info][application] $_POST = [
+    '_csrf' => 'NHhCZUlJN0VsDntIJnpPJls5Gy44fAIUdignLioQYGgMNBUrA39wNA=='
+    'LoginForm' => [
+        'username' => 'admin12'
+        'password' => 'admin123'
+        'rememberMe' => '0'
+    ]
+    'login-button' => ''
+]
+
+$_COOKIE = [
+    'Hm_lvt_f0cfcccd7b1393990c78efdeebff3968' => '1435384591'
+    'Z7jt_2132_lastcheckfeed' => '1|1436541853'
+    'Z7jt_2132_nofavfid' => '1'
+    'Z7jt_2132_cpmenu_Ma5f625b2' => '1'
+    'CNZZDATA1255821418' => '1355034140-1437746976-http%3A%2F%2F127.0.0.1%2F|1437746976'
+    'ECS' => [
+        'visit_times' => '2'
+    ]
+    'Z7jt_2132_ulastactivity' => '96173akUuFbPstODLaYMUw2bhsVFxD1zzk5C4WpgHG8LDNUt9KNC'
+    'Hm_lvt_5f5a95758129ff157ca4d0d7afabff18' => '1448804316'
+    '_csrf' => '704eefccb5ec2abb0421e41afc8450b724c923fdc0918a6a4427bce228439da5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Xv9-o3xcoAYKq55QBPeKcYW-8LWNJ6Gq\";}'
+    'PHPSESSID' => 'hftmegnjimantn9gmu83mcmt81'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_UNIQUE_ID' => 'VnLR0H8AAAEAAAQ5hB0AAAAL'
+    'REDIRECT_STATUS' => '200'
+    'UNIQUE_ID' => 'VnLR0H8AAAEAAAQ5hB0AAAAL'
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '173'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://127.0.0.1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.86 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://127.0.0.1/wei_shop/web/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6,ja;q=0.4'
+    'HTTP_COOKIE' => 'Hm_lvt_f0cfcccd7b1393990c78efdeebff3968=1435384591; Z7jt_2132_lastcheckfeed=1%7C1436541853; Z7jt_2132_nofavfid=1; Z7jt_2132_cpmenu_Ma5f625b2=1; CNZZDATA1255821418=1355034140-1437746976-http%253A%252F%252F127.0.0.1%252F%7C1437746976; ECS[visit_times]=2; Z7jt_2132_ulastactivity=96173akUuFbPstODLaYMUw2bhsVFxD1zzk5C4WpgHG8LDNUt9KNC; Hm_lvt_5f5a95758129ff157ca4d0d7afabff18=1448804316; _csrf=704eefccb5ec2abb0421e41afc8450b724c923fdc0918a6a4427bce228439da5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Xv9-o3xcoAYKq55QBPeKcYW-8LWNJ6Gq%22%3B%7D; PHPSESSID=hftmegnjimantn9gmu83mcmt81'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'DYLD_LIBRARY_PATH' => '/Applications/XAMPP/xamppfiles/lib:/Applications/XAMPP/xamppfiles/lib'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Unix) OpenSSL/1.0.1j PHP/5.6.3 mod_perl/2.0.8-dev Perl/v5.16.3'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Applications/XAMPP/xamppfiles/htdocs'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Applications/XAMPP/xamppfiles/htdocs/wei_shop/web/index.php'
+    'REMOTE_PORT' => '51431'
+    'REDIRECT_URL' => '/wei_shop/web/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/wei_shop/web/site/login'
+    'SCRIPT_NAME' => '/wei_shop/web/index.php'
+    'PHP_SELF' => '/wei_shop/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1450365392.324
+    'REQUEST_TIME' => 1450365392
+]
